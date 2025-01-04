@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+if [ -n "$BLOCK_BUTTON" ]; then
+    case $BLOCK_BUTTON in
+        1)  
+            # left click
+            $(brightnessctl set $DECREASE_BY%-)
+            ;;
+        3)  
+            # right click
+            $(brightnessctl set $DECREASE_BY%-)
+            ;;
+    esac
+fi

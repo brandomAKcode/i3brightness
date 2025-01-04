@@ -1,0 +1,17 @@
+[brightness]
+command=~/.config/i3blocks/scripts/i3brightness
+interval=1
+
+[brightness_up]
+command=~/.config/i3blocks/scripts/i3brightness_up
+INCREASE_BY=10 # steps to increase brightness
+full_text=
+label=☀️+
+interval=once
+
+[brightness_down]
+command=~/.config/i3blocks/scripts/i3brightness_down
+DECREASE_BY=10 # steps to decrease brightness
+full_text=
+label=☀️-
+interval=once
