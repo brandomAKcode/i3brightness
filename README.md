@@ -96,3 +96,7 @@ You can change the brightness increment and decrement intervals by modifying the
 ### Inspired by
 
 Anachron https://github.com/Anachron
+
+## License
+
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](./LICENSE) file for details.
